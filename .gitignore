@@ -3,3 +3,21 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Model checkpoints
+models/
+
+# Generated segmentation outputs
+outputs/
+
+# Python cache
+*.pyc
