@@ -21,3 +21,18 @@ outputs/
 
 # Python cache
 *.pyc
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+models/
+weights/
+runs/
+
+# Generated outputs and videos
+outputs/
+*.avi
+
+# Raw video datasets
+data/*.mp4
